@@ -1,8 +1,24 @@
+<head>
+    <style>
+        .wrapper {
+          display: flex;
+          justify-content: space-between; /* Adjust as needed */
+        }
+    
+        .footer-col-wrapper {
+          display: flex;
+        }
+    
+        .footer-col {
+          flex: 1;
+          padding: 0 10px; /* Adjust spacing as needed */
+        }
+      </style>
+</head>
 <footer class="site-footer h-card">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
   
     <div class="wrapper">
-  
       <div class="footer-col-wrapper">
         <div class="footer-col">
         {%- if site.author %}
@@ -23,7 +39,9 @@
           <p>{{ site.description | escape }}</p>
         </div>
       </div>
-  
     </div>
   
   </footer>
+
+
+  
