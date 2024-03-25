@@ -1,6 +1,19 @@
 ### your site title here
+title: ININ Tutorial
+title: Your awesome title
+author:
+  name: Michael 王云斐
+  email: F.Wang@econ.uni-frankfurt.de
+  website: https://oceanumeric.github.io
+  youtube: https://www.youtube.com/@innolab2698
 
-title: ININ Tutorial Website
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Dive into patent data analysis and regression with interactive tutorials in R and Python.
+  Explore video lessons, guided practice, and hands-on coding. PLEASE like and share my videos
+  if you also like my music!
 
 
 ### let's use the minima theme (see https://github.com/jekyll/minima)
