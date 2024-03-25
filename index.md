@@ -1,6 +1,6 @@
 ---
 title: Welcome
-layout: default
+layout: home
 ---
 
 This is the home page of ININ tutorial site. Here you can find all the instructions
