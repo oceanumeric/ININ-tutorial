@@ -1,10 +1,5 @@
 <head>
     <style>
-        .footer-wrapper {
-          display: flex;
-          justify-content: space-between; /* Adjust as needed */
-        }
-    
         .footer-col-wrapper {
           display: flex;
         }
@@ -27,10 +22,13 @@
               <li class="p-name">{{ site.author.name | escape }}</li>
             {% endif -%}
             {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">📮 {{ site.author.email }}</a></li>
             {%- endif %}
             {% if site.author.website -%}
-              <li><a class="u-email" href="{{ site.author.website }}">{{ site.author.website }}</a></li>
+              <li><a class="u-email" href="{{ site.author.website }}">𝍌 {{ site.author.website }}</a></li>
+            {%- endif %}
+            {% if site.author.youtube -%}
+              <li><a class="u-email" href="{{ site.author.youtube }}">🎯 {{ site.author.youtube }}</a></li>
             {%- endif %}
           </ul>
         {%- endif %}
