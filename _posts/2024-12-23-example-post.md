@@ -1,5 +1,5 @@
 ---
-title: Example Post
+title: Example Post Demo
 date: 2024-12-23
 layout: post
 ---
