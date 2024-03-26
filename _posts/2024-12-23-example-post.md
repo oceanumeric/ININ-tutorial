@@ -25,12 +25,4 @@ SELECT * FROM table
 WHERE column = 'value';
 ```
 
-Let's try math:
-
-$$
-\begin{align*}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{align*}
-$$
+Math equations are not supported by default.
