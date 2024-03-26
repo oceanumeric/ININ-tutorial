@@ -1,27 +1,35 @@
-name: Continuous Integration
+name: Deploy gh-pages
+
 on:
   push:
     branches:
-      - master
-  pull_request:
-    branches:
-      - master
+      - main
+
 jobs:
-  build:
-    name: "Test with Jekyll ${{ matrix.jekyll }}"
-    runs-on: "ubuntu-latest"
-    strategy:
-      matrix:
-        jekyll: ["~> 3.9", "~> 4.2"]
-    env:
-      JEKYLL_VERSION: ${{ matrix.jekyll }}
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-      - name: Set Up Ruby 3.2.0
+      - uses: actions/checkout@v3
+
+      - name: Prepare Ruby and Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.0
-          bundler-cache: true
-      - name: Run tests
-        run: script/cibuild
+          ruby-version: '2.7'
+
+      - name: Install ruby dependencies
+        run: bundle install
+
+      - name: Build website
+        run: bundle exec jekyll build
+
+      - name: Deploy on gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

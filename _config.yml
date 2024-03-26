@@ -20,6 +20,9 @@ description: >
 theme: minima
 
 
+markdown: kramdown
+
+
 # math engine with katex in case you want to do complex configuration
 kramdown:
   math_engine: katex
