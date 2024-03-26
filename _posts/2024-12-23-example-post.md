@@ -1,5 +1,4 @@
 ---
-title: Example Post Demo
 layout: post
 ---
 
