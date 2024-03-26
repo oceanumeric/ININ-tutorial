@@ -16,6 +16,8 @@ How can you do that in the simplest way possible? Here is a suggestion:
 3. Create a _Dockerfile_ that installs the necessary packages for the lab environment.
 4. Setup the github respository as a template repository.
 
+You can visit [this repository](https://github.com/oceanumeric/ININ-tutorial) to see an example of how to do this.
+
 
 
 
