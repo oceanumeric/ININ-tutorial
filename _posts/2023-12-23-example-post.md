@@ -32,3 +32,21 @@ $$
 \frac{1}{2} + \frac{1}{3} &= \frac{5}{6} \\
 \end{align*}
 $$
+
+You can even do math inline: $1 + 1 = 2$ or matrix multiplication:
+
+$$
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+\begin{bmatrix}
+5 & 6 \\
+7 & 8
+\end{bmatrix}
+=
+\begin{bmatrix}
+19 & 22 \\
+43 & 50
+\end{bmatrix}
+$$
