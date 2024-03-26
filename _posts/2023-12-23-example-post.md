@@ -1,7 +1,23 @@
 ---
-title: Example Post Demo
+title: The simplest way is the best way
 layout: post
 ---
+
+When you are giving a course that will use programming, you basically want to:
+
+1. Have a website where you can post the course material.
+2. Have a repository where you can store the code and exercises.
+3. configure lab environments for the students to run jupyter notebooks.
+
+How can you do that in the simplest way possible? Here is a suggestion:
+
+1. Create a GitHub repository for the course.
+2. Create a GitHub Pages website for the course with _jekyll minima_ theme.
+3. Create a _Dockerfile_ that installs the necessary packages for the lab environment.
+4. Setup the github respository as a template repository.
+
+
+
 
 This is an example post.
 
