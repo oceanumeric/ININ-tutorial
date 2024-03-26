@@ -17,7 +17,7 @@ jobs:
       - name: Prepare Ruby and Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.2.0'
 
       - name: Install ruby dependencies
         run: bundle install
@@ -31,5 +31,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
