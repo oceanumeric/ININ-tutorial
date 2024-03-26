@@ -20,7 +20,7 @@ description: >
 theme: minima
 
 
-# math engine with katex
+# math engine with katex in case you want to do complex configuration
 kramdown:
   math_engine: katex
 
