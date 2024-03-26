@@ -1,5 +1,6 @@
 ---
-title: The simplest way is the best way
+title: Modern Teaching Environment
+subtitle: The simplest way is the best way
 layout: post
 ---
 
