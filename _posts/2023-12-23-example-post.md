@@ -1,6 +1,5 @@
 ---
 title: Example Post Demo
-date: 2023-12-23
 layout: post
 ---
 
@@ -26,4 +25,10 @@ SELECT * FROM table
 WHERE column = 'value';
 ```
 
-Math equations are not supported by default.
+Let's try some math:
+
+$$
+\begin{align*}
+\frac{1}{2} + \frac{1}{3} &= \frac{5}{6} \\
+\end{align*}
+$$
