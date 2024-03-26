@@ -1,8 +1,12 @@
 ---
-title: Modern Teaching Environment
-subtitle: The simplest way is the best way
+title: AI-driven teaching with Copilot, ChatGPT and GitHub
 layout: post
 ---
+
+
+This is the third year that I am giving the ININ tutorial. With the advances in AI, I am always looking for ways to improve the teaching experience. Last year, I have used the GitHub Copilot to show students how programming can be made easier with AI. This year, I am going to make the course more interactive by constructing a website that students can use to follow the course material, follow the links to interact with ChatGPT and run the code in a Jupyter notebook environment.
+
+
 
 When you are giving a course that will use programming, you basically want to:
 
