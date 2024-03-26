@@ -20,6 +20,11 @@ description: >
 theme: minima
 
 
+# math engine with katex
+kramdown:
+  math_engine: katex
+
+
 ### exclude the instructions / write-up in the README.md
 
 exclude:
