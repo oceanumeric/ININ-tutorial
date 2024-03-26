@@ -20,12 +20,10 @@ description: >
 theme: minima
 
 
-markdown: kramdown
-
 
 # math engine with katex in case you want to do complex configuration
-kramdown:
-  math_engine: katex
+# kramdown:
+#   math_engine: katex
 
 
 ### exclude the instructions / write-up in the README.md

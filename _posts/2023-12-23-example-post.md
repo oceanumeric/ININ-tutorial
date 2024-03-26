@@ -1,7 +1,6 @@
 ---
 title: Example Post Demo
 layout: post
-katex: true
 ---
 
 This is an example post.
@@ -34,7 +33,7 @@ $$
 \end{align*}
 $$
 
-You can even do math inline: $$1 + 1 = 2$$ or matrix multiplication:
+You can even do math inline: $1 + 1 = 2$ or matrix multiplication:
 
 $$
 \begin{bmatrix}
