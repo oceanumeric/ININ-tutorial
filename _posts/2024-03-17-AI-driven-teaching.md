@@ -81,3 +81,11 @@ $$
 \end{bmatrix}
 $$
 
+
+## Using ChatGPT in the Course
+
+From time to time, I will share links like this one:
+
+- [ChatGPT Reading Mater](https://chat.openai.com/share/6cb183e1-68de-41a3-837a-50a4d2482bc9)
+
+You can click on the link and interact with ChatGPT. It is a great way to learn new things and get help with the course material.
