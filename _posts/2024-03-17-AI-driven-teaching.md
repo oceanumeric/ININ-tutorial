@@ -3,6 +3,9 @@ title: AI-Driven Teaching and Learning Experience
 layout: post
 ---
 
+![ai-teacher](https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/060623-Professor-AI-Midjourney-CM-01.jpg?w=2000&ssl=1)
+
+*The image was take from [calmatters.org](https://calmatters.org/){:target="_blank"}*
 
 This is the third year that I am giving the ININ tutorial. With the advances in AI, I am always looking for ways to improve the teaching experience. Last year, I have used the GitHub Copilot to show students how programming can be made easier with AI. This year, I am going to make the course more interactive by constructing a website that students can use to follow the course material, follow the links to interact with ChatGPT and run the code in a Jupyter notebook environment.
 
@@ -78,6 +81,3 @@ $$
 \end{bmatrix}
 $$
 
-![ai-teacher](https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/060623-Professor-AI-Midjourney-CM-01.jpg?w=2000&ssl=1)
-
-*The image was take from [calmatters.org](https://calmatters.org/){:target="_blank"}*
