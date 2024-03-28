@@ -9,4 +9,4 @@ For those unfamiliar with programming in R or Python, pre-recorded videos will b
 
 By the end of the tutorials, students will have acquired the skills to collect and analyze patent data effectively. They will also be equipped with the knowledge to perform basic regression analysis and conduct regression diagnostics. All tutorial materials will be accessible via OLAT and a GitHub Repository. Emphasizing a hands-on approach, most tutorials require students to execute code for practical application.
 
-
+At the beginning, **you will be instructed to change some numbers in the code** to observe the impact on the results. This will help you understand the underlying concepts better. Slowly, you will be guided to write your own code to perform the analysis. For those who have never programmed before, this tutorial will be a great starting point. For those who are already familiar with programming, this tutorial will be a good refresher.
