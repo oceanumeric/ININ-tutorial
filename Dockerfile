@@ -10,9 +10,6 @@ COPY requirements.txt /tmp/pip-tmp/
 RUN pip install --requirement /tmp/pip-tmp/requirements.txt \
     && rm -rf /tmp/pip-tmp
 
-WORKDIR /
-COPY .git myproject.git
-
 RUN echo "Hello World!"
 
 RUN echo "I am building up your code environment now..."
