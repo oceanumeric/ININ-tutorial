@@ -65,7 +65,7 @@ def query_cpc(cpc_code: str, start_year: int, end_year):
 
 if __name__ == "__main__":
     # test the basic query
-    cpc_code = 'H01M'
+    cpc_code = 'B60K'
     # start_year = 2014
     # end_year = 2015
     # foo = query_cpc(cpc_code, start_year, end_year)
