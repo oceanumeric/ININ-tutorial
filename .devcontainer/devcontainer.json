@@ -1,6 +1,0 @@
-{
-    "name": "DSEnv",
-    "build": {
-      "dockerfile": "../Dockerfile"
-    }
-}
