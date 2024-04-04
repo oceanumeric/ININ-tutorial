@@ -26,7 +26,7 @@ Here is our roadmap for the course:
 - Lab 0: Get to know `Github`, `Jupyter`, `Python` and `R`
     - This is a lab where you will learn how to use `Github`, `Jupyter`, `Python` and `R`.
     - Most of time, you just need to run the code that I have written for you.
-    - The theme of the lab is about 'Drama of Love`. 
+    - The theme of the lab is about *Drama of Love*. 
 
 - Lab 1: Enter the world of Patents
     - This is a lab where you will learn how to query patents from the EPO Linked Open Data.
