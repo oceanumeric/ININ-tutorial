@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 data/ai_model_predictions.tsv.zip
+data/202401_HAN_PATENTS.7z
+data/202401_HAN_PATENTS.txt
