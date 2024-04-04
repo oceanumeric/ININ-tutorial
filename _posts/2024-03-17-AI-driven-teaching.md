@@ -9,33 +9,55 @@ layout: post
 
 This is the third year that I am giving the ININ tutorial. With the advances in AI, I am always looking for ways to improve the teaching experience. Last year, I have used the GitHub Copilot to show students how programming can be made easier with AI. This year, I am going to make the course more interactive by constructing a website that students can use to follow the course material, follow the links to interact with ChatGPT and run the code in a Jupyter notebook environment.
 
-This kind of setup has been my dream for a long time because it allows me to focus on the content of the course and not on the technical details of setting up the lab environment. At the same time, it allows the students to access the course material from anywhere and at any time in a way that is interactive and engaging.
+Ideally, I would like to have a course that is self-contained and self-paced. Students can follow the course material at their own pace, ask questions to ChatGPT when they are stuck, and run the code in a Jupyter notebook environment to see the results. This way, they can learn by doing and get immediate feedback on their work.
+
+For students, this is a great way to learn new things. For me, it is a nice way to
+present the course material and interact with the students. **Most importantly, both
+teaching and learning process have to be driven by AI and fun!** So, in this course,
+you will have:
+
+- a website to follow the course material, to read the blog posts, and to interact with ChatGPT.
+- A website that includes youtube videos, code snippets, math equations, and images.
+- A repository where you can find the code and exercises.
+- A coding environment where you can run the code and see the results.
+
+Here is our roadmap for the course:
+
+- Lab 0: Get to know `Github`, `Jupyter`, `Python` and `R`
+    - This is a lab where you will learn how to use `Github`, `Jupyter`, `Python` and `R`.
+    - Most of time, you just need to run the code that I have written for you.
+    - The theme of the lab is about 'Drama of Love`. 
+
+- Lab 1: Enter the world of Patents
+    - This is a lab where you will learn how to query patents from the EPO Linked Open Data.
+    - You will learn the basic structure of a patent document, such as title, abstract, claims, and description, etc.
+    - You will learn how patent could help us to understand the technology landscape, such as the technology trend of electric vehicles and AI.
+
+- Lab 2: More about Patents and Community Innovation Survey
+    - We will do more analysis on patents
+    - We will also learn how to use the Community Innovation Survey to understand the innovation activities of firms.
+
+- Lab 3: Regression Analysis
+    - We will learn how to do regression analysis 
+    - We will learn how to do regression diagnostics
+
+- Lab 4: Innovation and Institutions
+    - We will use a dataset from a published paper to understand the relationship between innovation and institutions.
+    - After this lab, you will have a better understanding of how to use data to answer research questions.
+
+- Lab 5: Presentation and Writing with Copilot
+    - We will learn how to use Copilot to create a presentation and write a paper.
+    - You will also learn how to use Latex to manage your references and write a paper
+    with very professional looking.
+
+
+All learning materials will be posted on this website and [this repository](https://github.com/oceanumeric/ININ-tutorial){:target="_blank"}.
 
 
 
-When you are giving a course that will use programming, you basically want to:
+## Some Formatting Examples
 
-1. Have a website where you can post the course material.
-2. Have a repository where you can store the code and exercises.
-3. configure lab environments for the students to run jupyter notebooks.
-4. students could start the lab environment with a single click (probably the most important feature).
-
-How can you do that in the simplest way possible? Here is a suggestion:
-
-1. Create a GitHub repository for the course.
-2. Create a GitHub Pages website for the course with _jekyll minima_ theme.
-3. Create a _Dockerfile_ that installs the necessary packages for the lab environment.
-4. Setup the github respository as a template repository.
-
-You can visit [this repository](https://github.com/oceanumeric/ININ-tutorial){:target="_blank"} to see an example of how to do this.
-
-
-For the theme of the course website, I have chosen the _jekyll minima_ theme. It is a simple and clean theme that is easy to customize. We say the simplest way is the best way. With this theme and default settings from Github, you do not need any CICD pipeline to build the website. You can just push the changes to the repository and the website will be updated automatically.
-
-As it shows in the rest of this page, you can show code snippets in different languages, write math equations, and even include images. This is a great way to make the course material more interactive and engaging.
-
-
-You can write `python` code:
+The following content is just to show you some formatting examples, which I hope will make your learning experience more enjoyable.
 
 ```python
 def hello():
