@@ -1,12 +1,19 @@
-# update
-apt-get update && sudo apt-get upgrade
+#!/bin/bash
 
-# install gfortran
-apt-get install gfortran
+# Update and upgrade system
+apt-get update && sudo apt-get upgrade -y
 
+# Install gfortran
+apt-get install -y gfortran
 
-# r install 'vtree'
-Rscript -e 'install.packages("vtree")'
+# Install required dependencies for R packages
+apt-get install -y libstdc++-dev
 
-# r install 'psych'
-Rscript -e 'install.packages("psych")'
+# Install 'igraph' R package
+Rscript -e 'install.packages("igraph", repos="http://cran.rstudio.com/")'
+
+# Install 'vtree' R package
+Rscript -e 'install.packages("vtree", repos="http://cran.rstudio.com/")'
+
+# Install 'psych' R package
+Rscript -e 'install.packages("psych", repos="http://cran.rstudio.com/")'
