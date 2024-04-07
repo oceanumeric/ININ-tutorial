@@ -1,6 +1,10 @@
 {
+    "name": "ININ Lab Environment",
     "hostRequirements": {
         "cpus": 4
-     }
+      },
+    "build": {
+      "dockerfile": "Dockerfile"
+    }
 }
  
