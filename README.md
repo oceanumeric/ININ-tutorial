@@ -10,7 +10,7 @@
    - paste the following link to `Import profile` and click `Import`
 
    ```bash
- https://vscode.dev/profile/github/0c0e4a4e27db6cf9388629c25e6ffa94
+   https://gist.github.com/oceanumeric/0c0e4a4e27db6cf9388629c25e6ffa94
    ```
 
    Once imported, you should see the following profile:
