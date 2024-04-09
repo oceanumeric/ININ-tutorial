@@ -2,4 +2,9 @@
     "r.lsp.diagnostics": false,
     "editor.fontSize": 14,
     "editor.rulers": [88],
+    "github.copilot.enable": {
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
 }
