@@ -3,8 +3,6 @@ title: AI-Driven Teaching and Learning Experience
 layout: post
 ---
 
-{% include lab-env-setup-slides.html %}
-
 ![ai-teacher](https://i0.wp.com/calmatters.org/wp-content/uploads/2022/06/060623-Professor-AI-Midjourney-CM-01.jpg?w=2000&ssl=1)
 
 *The image was take from [calmatters.org](https://calmatters.org/){:target="_blank"}*
