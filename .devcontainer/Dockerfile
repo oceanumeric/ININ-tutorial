@@ -1,4 +1,4 @@
-FROM 6214247/inin-lab:latest
+FROM jupyter/datascience-notebook
 
 
 RUN echo "Hello World!"
