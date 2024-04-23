@@ -24,3 +24,13 @@ LC_ALL=C.UTF-8 jupyter notebook --allow-root
 ```
 
 Then select the jupyer kernel from the running session.
+
+
+For someone runs R in a docker environment (under root), try to run R with below command,
+
+```
+LC_ALL=C.UTF-8 R
+# instead of just `R`
+```
+
+**Remark**: we need this as the we encounter an error from `SPARQL` package in R, which is due to the locale setting (causes the xml parsing error).
