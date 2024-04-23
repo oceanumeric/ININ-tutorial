@@ -17,4 +17,10 @@
 
  
 
-3. Watch this video to learn how to use this template more effectively in _5 minutes_:
+3. In the terminal, run
+
+```
+LC_ALL=C.UTF-8 jupyter notebook --allow-root
+```
+
+Then select the jupyer kernel from the running session.
