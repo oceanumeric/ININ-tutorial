@@ -1,6 +1,4 @@
-FROM jupyter/datascience-notebook
-
-RUN conda install -y conda-forge::r-languageserver r-pacman r-stringr r-data.table r-sparql r-vtree
+FROM 6214247/ds-notebook
 
 RUN echo "Hello World!"
 
