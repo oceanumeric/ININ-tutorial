@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # install r language server
-conda install -y r-languageserver
+conda install -y conda-forge::r-languageserver
 
 # install r packages
-conda install -y r-stringr
-conda install -y r-data.table
-conda install -y r-sparql
-conda install -y r-vtree
+conda install -y conda-forge::r-pacman
+conda install -y conda-forge::r-stringr
+conda install -y conda-forge::r-data.table
+conda install -y conda-forge::r-sparql
+conda install -y conda-forge::r-vtree
