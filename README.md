@@ -13,12 +13,5 @@
    https://gist.github.com/oceanumeric/272357d747a18013baa370ac215c6721
    ```
 
-   Once imported, you should see the following profile:
+   Once imported, you should see the following profile: ININ-Lab-Profile
 
- 
-
-3. In the terminal, run
-
-```
-bash install.sh
-```
